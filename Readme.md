@@ -1,0 +1,1 @@
+Tiny project of a linktree-like page with a resume :3
