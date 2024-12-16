@@ -2,7 +2,7 @@
   "name": "linktree-resume",
   "private": true,
   "version": "0.1.4",
-  "homepage": "https://bloobs.ca",
+  "homepage": "http://bloobs.ca",
   "type": "module",
   "scripts": {
     "dev": "vite",
