@@ -10,7 +10,7 @@ function App() {
       <>
           <ProfileImg />
           <h1>Azul Cerulean</h1>
-          <h2><CodeIcon /> burnt-out IT girl :3</h2>
+          <h2><CodeIcon /> Wip :3</h2>
           <p>Welcome to my page!</p>
           <a href="https://github.com/AzulCerulean" target="_blank"><GithubIcon /> GitHub</a>
           <a href="https://www.tiktok.com/@azula.sama" target="_blank"><TikTokIcon /> TikTok</a>
