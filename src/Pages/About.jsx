@@ -52,8 +52,6 @@ const About = () => {
                 </ul>
             </div>
             <div className="Contact">
-                <p className="email">azul.sama@outlook.com</p>
-                <p className="phone">+15147814238</p>
                 <p className="linkedIn">https://www.linkedin.com/in/azul-cerulean</p>
                 <p className="location">Montreal</p>
             </div>
