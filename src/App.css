@@ -1,10 +1,9 @@
 #root {
-  max-width: 1280px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
 
 h1 {
   font-size: 48px;
@@ -30,17 +29,10 @@ a {
   text-decoration: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s ease;
+  width: 70%;
 }
 a:hover {
   background-color: pink;
   color: white;
   transform: scale(1.05);
-}
-.iconCode, .iconGithub, .iconTikTok {
-  padding-right: 0.3em;
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-  40% {transform: translateY(-10px);}
-  60% {transform: translateY(-5px);}
 }
