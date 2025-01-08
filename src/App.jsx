@@ -2,6 +2,7 @@ import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router";
 import Home from "./Pages/Home.jsx";
 import About from "./Pages/About.jsx";
+import PageNotFound from "./Pages/PageNotFound.jsx";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/about" element={<About />} />
+                  <Route path="*" element={<PageNotFound />} />
               </Routes>
           </BrowserRouter>
       </>

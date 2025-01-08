@@ -1,0 +1,8 @@
+.pageNotFoundDiv {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,5 @@
+.profileImg {
+    border-radius: 75px;
+    animation: bounce 2s infinite;
+    margin-top: 20px;
+}

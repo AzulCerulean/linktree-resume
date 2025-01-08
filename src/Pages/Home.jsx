@@ -9,7 +9,7 @@ import DragonIcon from "../assets/DragonIcon.jsx";
 
 const Home = () => {
     return (
-        <>
+        <div className="homeContainer">
             <ProfileImg />
             <h1>Azul Cerulean</h1>
             <h2><CodeIcon /> Developer, <DragonIcon /> Creative, <MusicIcon /> Sound Enthusiast :3</h2>
@@ -17,7 +17,7 @@ const Home = () => {
             <Link to={"/about"}>About me</Link>
             <a href="https://github.com/AzulCerulean" target="_blank"><GithubIcon /> GitHub</a>
             <a href="https://www.tiktok.com/@azula.sama" target="_blank"><TikTokIcon /> TikTok</a>
-        </>
+        </div>
     )
 }
 
