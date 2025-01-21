@@ -4,3 +4,24 @@
     align-items: center;
     justify-content: center;
 }
+.aboutMeP {
+    margin: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20vh;
+    align-content: center;
+}
