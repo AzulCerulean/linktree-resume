@@ -23,6 +23,7 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/azul-cerulean" target="_blank"><LinkedInIcon /> LinkedIn</a>
                     <a href="https://github.com/AzulCerulean" target="_blank"><GithubIcon/> GitHub</a>
                     <a href="https://www.tiktok.com/@azula.sama" target="_blank"><TikTokIcon/> TikTok</a>
+                    <Link to={"/projects"}>Projects</Link>
                 </div>
     )
 }
