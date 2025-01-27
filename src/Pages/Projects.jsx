@@ -11,6 +11,7 @@ const Projects = () => {
                 <h2>Dodge The Creeps</h2>
                 <p>Project in Godot, from their tutorial</p>
                 <Link to={"/projects/dodgethecreeps"} target="_blank">Play the game!</Link>
+                <a href={"projects/dodgethecreeps/dodgethecreeps.html"} target="_blank" rel="noopener noreferrer">Play Dodge The Creeps</a>
             </div>
             <Link to={"/"}>Back to the homepage o_o</Link>
         </div>
