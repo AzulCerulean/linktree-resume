@@ -1,8 +1,11 @@
 import React from "react";
 
 const DodgeTheCreeps = () => {
-    window.location.href = "../public/Projects/DodgeTheCreeps/index.html";
-    return <></>;
+    return (
+        <>
+            <a href="/projects/dodgethecreeps/dodgethecreeps.html" target="_blank" rel="noopener noreferrer">Play Dodge The Creeps</a>
+        </>
+    );
 };
 
 export default DodgeTheCreeps;
