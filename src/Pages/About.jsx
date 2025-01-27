@@ -10,7 +10,7 @@ const hardSkills = ["MongoDB","Express","React","Node.js","JavaScript","HTML","C
 const About = () => {
     return (
         <div className="aboutContainer">
-            <h1>Hello there. I'm Azul >:3</h1>
+            <h1>Hello there. I'm Azul :3</h1>
             <p className="aboutMeP">MERN stack web developer with a passion for creating dynamic applications
                 . Interested in game design and music production
                 . A versatile jack-of-all-trades, always exploring new skills.</p>
