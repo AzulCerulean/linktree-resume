@@ -625,7 +625,7 @@ const InternalConfig = function (initConfig) { // eslint-disable-line no-unused-
 };
 
 /**
- * projects exported for the Web expose the :js:class:`Engine` class to the JavaScript environment, that allows
+ * Projects exported for the Web expose the :js:class:`Engine` class to the JavaScript environment, that allows
  * fine control over the engine's start-up process.
  *
  * This API is built in an asynchronous manner and requires basic understanding
