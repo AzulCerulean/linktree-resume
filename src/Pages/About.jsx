@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import {Link} from "react-router";
 import "./About.css";
 
@@ -10,13 +10,13 @@ const hardSkills = ["MongoDB","Express","React","Node.js","JavaScript","HTML","C
 const About = () => {
     return (
         <div className="aboutContainer">
-            <h1>Hello there. I'm Azul :3</h1>
+            <h1>Hello there. I&apos;m Azul :3</h1>
             <p className="aboutMeP">If you are here, then you want to know more about me o_o
-                . Well, I've been in the IT Support bubble for over 6 years,
+                . Well, I&apos;ve been in the IT Support bubble for over 6 years,
                 I bring strong skills in troubleshooting, system maintenance, and user support
                 . A versatile jack-of-all-trades, always exploring new skills.
                 On my personal time, I enjoy playing games, making music, or work on a project
-                . I also got some great improvisational cooking skills, but that's reserved for my inner circles {">"}:3.
+                . I also got some great improvisational cooking skills, but that&apos;s reserved for my inner circles {">"}:3.
             </p>
             <div className="skills">
                 <div className="softSkills">
