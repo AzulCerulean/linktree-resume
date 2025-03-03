@@ -22,6 +22,6 @@ ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 20vh;
+    height: 60vh;
     align-content: center;
 }

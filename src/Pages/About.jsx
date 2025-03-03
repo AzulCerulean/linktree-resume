@@ -11,17 +11,21 @@ const About = () => {
     return (
         <div className="aboutContainer">
             <h1>Hello there. I'm Azul :3</h1>
-            <p className="aboutMeP">MERN stack web developer with a passion for creating dynamic applications
-                . Interested in game design and music production
-                . A versatile jack-of-all-trades, always exploring new skills.</p>
+            <p className="aboutMeP">If you are here, then you want to know more about me o_o
+                . Well, I've been in the IT Support bubble for over 6 years,
+                I bring strong skills in troubleshooting, system maintenance, and user support
+                . A versatile jack-of-all-trades, always exploring new skills.
+                On my personal time, I enjoy playing games, making music, or work on a project
+                . I also got some great improvisational cooking skills, but that's reserved for my inner circles {">"}:3.
+            </p>
             <div className="skills">
                 <div className="softSkills">
                     <h2>Soft Skills</h2>
-                    <ul>
+
                         {softSkills.map((skill, index) => (
-                            <li key={index}>{skill}</li>
+                            <p key={index}>{skill}</p>
                         ))}
-                    </ul>
+
             </div>
                 <div className="hardSkills">
                     <h2>Hard Skills</h2>
